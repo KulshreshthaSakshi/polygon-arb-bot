@@ -1,0 +1,13 @@
+[package]
+name = "polygon-arb-bot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }           # async runtime
+ethers = "1"                                            # Ethereum library (providers, contracts). See docs. :contentReference[oaicite:5]{index=5}
+sqlx = { version = "0.7", features = ["mysql", "runtime-tokio-rustls"] }  # MySQL DB client. :contentReference[oaicite:6]{index=6}
+dotenv = "0.15"                                          # read .env files
+anyhow = "1"                                             # easy error handling
+serde = { version = "1.0", features = ["derive"] }
+
