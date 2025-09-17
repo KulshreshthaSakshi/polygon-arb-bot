@@ -54,11 +54,11 @@ MIN_PROFIT_USDC=1.0
 SIMULATED_GAS_USDC=0.5
 POLL_INTERVAL_SECS=10
 
-3 Running the Bot ▶
+# Running the Bot 
 
-Run in development mode:
+**Run in development mode:**
 
-cargo run
+    cargo run
 
 
 This will:
@@ -71,14 +71,12 @@ Compare simulated trades
 
 Detect arbitrage opportunities
 
-
-
 Print results in console
 
 
 
 
-
+# Scalability & Future Improvements
 More exchanges – Add additional DEX routers for deeper coverage
 
 Additional tokens – Track multiple token pairs simultaneously
@@ -89,7 +87,7 @@ Dashboard – Web UI with charts & analytics
 
 Resilience – Add retry logic, caching, better error handling
 
-Tech Stack 🛠️
+# Tech Stack 🛠️
 
 Rust – Core bot logic
 
