@@ -17,7 +17,7 @@ It compares token swap prices across DEX routers (e.g., QuickSwap and SushiSwap)
 
 ## Setup & Installation 
 
-### 1. Clone the repository
+1. Clone the repository
 
 ```bash
 git clone <your-repo-url>
@@ -87,7 +87,7 @@ Dashboard – Web UI with charts & analytics
 
 Resilience – Add retry logic, caching, better error handling
 
-# Tech Stack 🛠️
+# Tech Stack 
 
 Rust – Core bot logic
 
